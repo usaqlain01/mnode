@@ -1,0 +1,17 @@
+uuid: 2dc3d09a-0b62-4827-a353-220eea6b3c72
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus: {  }
+    parent: ''
+name: Alerts
+type: alerts
+description: 'for alerts'
+help: ''
+new_revision: false
+preview_mode: 1
+display_submitted: true

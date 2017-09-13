@@ -1,0 +1,43 @@
+uuid: a4353115-c4c4-458a-837c-ff6540851012
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.alerts.body
+    - field.field.node.alerts.field_alert_body_image
+    - field.field.node.alerts.field_alert_image
+    - node.type.alerts
+  module:
+    - image
+    - text
+    - user
+id: node.alerts.teaser
+targetEntityType: node
+bundle: alerts
+mode: teaser
+content:
+  body:
+    label: hidden
+    type: text_summary_or_trimmed
+    weight: 2
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    region: content
+  field_alert_image:
+    type: image
+    weight: 1
+    region: content
+    label: hidden
+    settings:
+      image_style: ''
+      image_link: ''
+    third_party_settings: {  }
+  links:
+    weight: 0
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden:
+  field_alert_body_image: true
