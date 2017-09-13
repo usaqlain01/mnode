@@ -1,0 +1,8 @@
+uuid: 7759614d-b71d-412d-9936-ce908876149f
+langcode: en
+status: true
+dependencies: {  }
+id: test
+label: test
+target_entity_type_id: block_content
+description: 'test type'
