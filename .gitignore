@@ -11,6 +11,9 @@
 # Ignore sensitive information
 /web/sites/*/settings.php
 /web/sites/*/settings.local.php
+/web/sites/ccntest.dd
+/web/sites/ccn.dd
+/web/sites/sites.php
 
 # Ignore Drupal's file directory
 /web/sites/*/files/
