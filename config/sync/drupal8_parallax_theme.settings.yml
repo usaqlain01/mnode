@@ -1,0 +1,45 @@
+features:
+  comment_user_picture: 1
+  comment_user_verification: 1
+  favicon: 1
+  logo: true
+  name: true
+  node_user_picture: 1
+  slogan: true
+facebook_url: 'https://www.facebook.com/crypcomnetwork'
+twitter_url: 'https://twitter.com/crypcomnetwork'
+google_plus_url: 'https://plus.google.com/106582433038454307946'
+linkedin_url: 'https://www.linkedin.com/in/usman-saqlain-8430549a/'
+pinterest_url: ''
+rss_url: ''
+show_social_icon: 1
+show_credit_link: 1
+show_slideshow: 1
+no_of_slides: '3'
+slide_title_1: 'Crypto Community Nework'
+slide_description_1: 'A website intended to serve as Crypto Community Network team''s Collaboration Platform'
+slide_url_1: /about
+slide_image_path_1: /images/slider/slide_01.jpg
+slide_title_2: 'New & Alerts'
+slide_description_2: 'Find latest news and alerts by visiting the Alerts Page.'
+slide_url_2: /alerts
+slide_image_path_2: /images/slider/slide_02.jpg
+slide_title_3: 'Timeline & Important Dates'
+slide_description_3: 'Crypto Community''s Project will be starting soon! :) '
+slide_url_3: /timeline
+slide_image_path_3: /images/slider/slide_03.jpg
+_core:
+  default_config_hash: KaLNVgq6qGhSV-TerDCQAiCaPJrmq41RgHhVcYzbxjI
+logo:
+  use_default: 0
+  path: 'public://10.png'
+favicon:
+  use_default: 0
+  path: 'public://smallLogo copy_1.png'
+  mimetype: image/png
+slide_image_path1:
+  - '33'
+slide_image_path2:
+  - '31'
+slide_image_path3:
+  - '32'
