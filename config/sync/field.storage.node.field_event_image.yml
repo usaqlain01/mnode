@@ -1,4 +1,4 @@
-uuid: 6bea0275-8e3d-485d-aaeb-a8323e19ca4a
+uuid: f7dfd139-4c1d-425e-b60f-c98085820044
 langcode: en
 status: true
 dependencies:
@@ -6,18 +6,18 @@ dependencies:
     - file
     - image
     - node
-id: node.field_alert_image
-field_name: field_alert_image
+id: node.field_event_image
+field_name: field_event_image
 entity_type: node
 type: image
 settings:
   uri_scheme: public
   default_image:
-    uuid: cb830d4e-f780-4f98-8c78-448a04d8db01
+    uuid: ''
     alt: ''
     title: ''
-    width: 242
-    height: 209
+    width: null
+    height: null
   target_type: file
   display_field: false
   display_default: false

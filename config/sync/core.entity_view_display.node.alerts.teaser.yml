@@ -6,10 +6,8 @@ dependencies:
     - core.entity_view_mode.node.teaser
     - field.field.node.alerts.body
     - field.field.node.alerts.field_alert_body_image
-    - field.field.node.alerts.field_alert_image
     - node.type.alerts
   module:
-    - image
     - text
     - user
 id: node.alerts.teaser
@@ -25,15 +23,6 @@ content:
       trim_length: 600
     third_party_settings: {  }
     region: content
-  field_alert_image:
-    type: image
-    weight: 1
-    region: content
-    label: hidden
-    settings:
-      image_style: ''
-      image_link: ''
-    third_party_settings: {  }
   links:
     weight: 0
     region: content

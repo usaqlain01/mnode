@@ -16,16 +16,16 @@ show_social_icon: 1
 show_credit_link: 1
 show_slideshow: 1
 no_of_slides: '3'
-slide_title_1: 'Crypto Community Nework'
-slide_description_1: 'A website intended to serve as Crypto Community Network team''s Collaboration Platform'
+slide_title_1: 'Crypto Community Project'
+slide_description_1: 'Worlds First Crypto Project created and managed by the Community!'
 slide_url_1: /about
 slide_image_path_1: /images/slider/slide_01.jpg
-slide_title_2: 'New & Alerts'
-slide_description_2: 'Find latest news and alerts by visiting the Alerts Page.'
+slide_title_2: 'News & Alerts'
+slide_description_2: 'Community Project''s latest news and alerts!'
 slide_url_2: /alerts
 slide_image_path_2: /images/slider/slide_02.jpg
-slide_title_3: 'Timeline & Important Dates'
-slide_description_3: 'Crypto Community''s Project will be starting soon! :) '
+slide_title_3: 'Timeline '
+slide_description_3: 'Community Project''s timeline and Important Events!'
 slide_url_3: /timeline
 slide_image_path_3: /images/slider/slide_03.jpg
 _core:
@@ -38,8 +38,8 @@ favicon:
   path: 'public://smallLogo copy_1.png'
   mimetype: image/png
 slide_image_path1:
-  - '33'
+  - '57'
 slide_image_path2:
-  - '31'
+  - '53'
 slide_image_path3:
-  - '32'
+  - '52'
