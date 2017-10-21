@@ -14,6 +14,9 @@
 /web/sites/ccntest.dd
 /web/sites/ccn.dd
 /web/sites/sites.php
+web/sites/mnode-qa.dd
+web/sites/mnode-test.dd
+web/sites/mnode-dev.dd
 /web/sites/default/services.local.yml
 
 # Ignore Drupal's file directory
