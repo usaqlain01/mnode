@@ -5,7 +5,7 @@
 @media (min-width: 767px) { .main-header { position: fixed; top: 0; left: 0; right: 0; z-index: 99; overflow: visible; }
   .user-logged-in .main-header { position: relative; }
   /*flexslider*/
-  .flexslider h2 { font-size: 2em; }
+  .flexslider h2 { font-size: 3em; color: red; }
   .flexslider .slider-caption { display: block; }
   .flexslider .flex-direction-nav { display: block; margin-top: -24px; }
   .top-menu { padding: 0; text-align: left; }

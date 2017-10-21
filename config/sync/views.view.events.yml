@@ -1,15 +1,15 @@
-uuid: 9a8192a3-9093-462a-83c0-3aa86c356605
+uuid: 85c2aacb-513d-4620-a03f-7a6260bc201c
 langcode: en
 status: true
 dependencies:
   config:
-    - node.type.alerts
+    - node.type.events
     - system.menu.main
   module:
     - node
     - user
-id: alerts
-label: Alerts
+id: events
+label: Events
 module: views
 description: ''
 tag: ''
@@ -138,27 +138,12 @@ display:
           table: node_field_data
           field: type
           value:
-            alerts: alerts
+            events: events
           entity_type: node
           entity_field: type
           plugin_id: bundle
-      sorts:
-        created:
-          id: created
-          table: node_field_data
-          field: created
-          order: DESC
-          entity_type: node
-          entity_field: created
-          plugin_id: date
-          relationship: none
-          group_type: group
-          admin_label: ''
-          exposed: false
-          expose:
-            label: ''
-          granularity: second
-      title: 'News & Alerts'
+      sorts: {  }
+      title: 'Upcoming Events'
       header: {  }
       footer: {  }
       empty: {  }
@@ -181,84 +166,13 @@ display:
     position: 2
     display_options:
       display_extenders: {  }
-      style:
-        type: default
-      defaults:
-        style: false
-        row: false
-        pager: false
-        fields: false
-      row:
-        type: fields
       pager:
         type: some
         options:
           items_per_page: 5
           offset: 0
-      fields:
-        title:
-          id: title
-          table: node_field_data
-          field: title
-          settings:
-            link_to_entity: true
-          plugin_id: field
-          relationship: none
-          group_type: group
-          admin_label: ''
-          label: ''
-          exclude: false
-          alter:
-            alter_text: false
-            text: ''
-            make_link: false
-            path: ''
-            absolute: false
-            external: false
-            replace_spaces: false
-            path_case: none
-            trim_whitespace: false
-            alt: ''
-            rel: ''
-            link_class: ''
-            prefix: ''
-            suffix: ''
-            target: ''
-            nl2br: false
-            max_length: 0
-            word_boundary: true
-            ellipsis: true
-            more_link: false
-            more_link_text: ''
-            more_link_path: ''
-            strip_tags: false
-            trim: false
-            preserve_tags: ''
-            html: false
-          element_type: ''
-          element_class: ''
-          element_label_type: ''
-          element_label_class: ''
-          element_label_colon: true
-          element_wrapper_type: ''
-          element_wrapper_class: ''
-          element_default_classes: true
-          empty: ''
-          hide_empty: false
-          empty_zero: false
-          hide_alter_empty: true
-          click_sort_column: value
-          type: string
-          group_column: value
-          group_columns: {  }
-          group_rows: true
-          delta_limit: 0
-          delta_offset: 0
-          delta_reversed: false
-          delta_first_last: false
-          multi_type: separator
-          separator: ', '
-          field_api_classes: false
+      defaults:
+        pager: false
     cache_metadata:
       max-age: -1
       contexts:
@@ -274,16 +188,12 @@ display:
     position: 1
     display_options:
       display_extenders: {  }
-      path: alerts
+      path: /events
       menu:
         type: normal
-        title: 'News & Alerts'
+        title: Events
         menu_name: main
-        weight: -46
-        description: ''
-        parent: ''
-        expanded: false
-        enabled: true
+        weight: -48
     cache_metadata:
       max-age: -1
       contexts:
