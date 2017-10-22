@@ -1,0 +1,14 @@
+uuid: 17812ff7-a245-45dc-8a7c-86faf791f36c
+langcode: en
+status: true
+dependencies: {  }
+name: event_thumbnail
+label: 'Event thumbnail'
+effects:
+  d71f4a0d-18d0-4535-9fa7-8bd6d9c3c14d:
+    uuid: d71f4a0d-18d0-4535-9fa7-8bd6d9c3c14d
+    id: image_scale_and_crop
+    weight: 1
+    data:
+      width: 200
+      height: 120

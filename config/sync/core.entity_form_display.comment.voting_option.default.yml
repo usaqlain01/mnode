@@ -1,0 +1,25 @@
+uuid: 0f4e6753-9c6d-4d8c-99ac-3a0e0a7704f9
+langcode: en
+status: true
+dependencies:
+  config:
+    - comment.type.voting_option
+    - field.field.comment.voting_option.comment_body
+  module:
+    - text
+id: comment.voting_option.default
+targetEntityType: comment
+bundle: voting_option
+mode: default
+content:
+  comment_body:
+    type: text_textarea
+    weight: 0
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+    region: content
+hidden:
+  author: true
+  subject: true

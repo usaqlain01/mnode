@@ -1,4 +1,4 @@
-uuid: ae7871d1-928d-4d39-9cf9-be431023d364
+uuid: c6f36995-336e-4f98-a690-2020d05bc23b
 langcode: en
 status: true
 dependencies:
@@ -13,7 +13,7 @@ _core:
 id: drupal8_parallax_theme_account_menu
 theme: drupal8_parallax_theme
 region: auto_hidden_block
-weight: 11
+weight: -8
 provider: null
 plugin: 'system_menu_block:account'
 settings:

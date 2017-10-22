@@ -1,0 +1,25 @@
+uuid: 837966bf-212a-44a7-855b-b50eb7b3d02d
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:fadd5747-8fb4-4c2a-80f4-6470417b47c3'
+  module:
+    - block_content
+  theme:
+    - drupal8_parallax_theme
+id: bottomsecondwidget
+theme: drupal8_parallax_theme
+region: bottom_second
+weight: 0
+provider: null
+plugin: 'block_content:fadd5747-8fb4-4c2a-80f4-6470417b47c3'
+settings:
+  id: 'block_content:fadd5747-8fb4-4c2a-80f4-6470417b47c3'
+  label: CRM
+  provider: block_content
+  label_display: visible
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

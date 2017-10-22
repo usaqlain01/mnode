@@ -1,0 +1,20 @@
+uuid: 3840efbd-53d7-4cbf-b2e7-093247f2d5e3
+langcode: en
+status: true
+dependencies:
+  module:
+    - comment
+    - node
+id: node.field_vo
+field_name: field_vo
+entity_type: node
+type: comment
+settings:
+  comment_type: voting_option
+module: comment
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

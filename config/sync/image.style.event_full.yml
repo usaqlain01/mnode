@@ -1,0 +1,14 @@
+uuid: 6717f1e9-e54c-431c-9258-3938ccdbb057
+langcode: en
+status: true
+dependencies: {  }
+name: event_full
+label: 'Event full'
+effects:
+  a6ac9066-6eb7-4049-b223-d189e109fcaf:
+    uuid: a6ac9066-6eb7-4049-b223-d189e109fcaf
+    id: image_scale_and_crop
+    weight: 1
+    data:
+      width: 500
+      height: 300

@@ -1,0 +1,8 @@
+uuid: f57ff5ca-eaac-4608-ba9a-3166e7d7d258
+langcode: en
+status: true
+dependencies: {  }
+id: voting_option
+label: 'voting option'
+target_entity_type_id: node
+description: ''

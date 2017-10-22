@@ -1,4 +1,4 @@
-uuid: 1b46d214-14b5-413b-917b-ef935e8d4b0a
+uuid: 48c291b6-20b4-4674-965d-04d9d8536aef
 langcode: en
 status: true
 dependencies: {  }
@@ -12,5 +12,8 @@ permissions:
   - 'access comments'
   - 'access content'
   - 'access site-wide contact form'
+  - 'add or remove dislike votes on alerts of node'
+  - 'add or remove dislike votes on voting_option of comment'
+  - 'add or remove like votes on voting_option of comment'
   - 'search content'
   - 'use text format restricted_html'

@@ -1,4 +1,4 @@
-uuid: 81b899b6-8204-44f7-b02b-a5603259be1b
+uuid: de982c8f-be67-4589-94e1-92961ce74135
 langcode: en
 status: true
 dependencies:
@@ -11,7 +11,7 @@ id: node.events.body
 field_name: body
 entity_type: node
 bundle: events
-label: Agenda
+label: Body
 description: ''
 required: false
 translatable: true

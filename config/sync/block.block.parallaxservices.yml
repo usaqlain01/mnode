@@ -1,0 +1,25 @@
+uuid: 3a9a13c9-cee8-4f59-b5a1-d91ba47345ca
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:fad5fa7d-52ef-4629-8338-cf372fb1b8f9'
+  module:
+    - block_content
+  theme:
+    - drupal8_parallax_theme
+id: parallaxservices
+theme: drupal8_parallax_theme
+region: services
+weight: -15
+provider: null
+plugin: 'block_content:fad5fa7d-52ef-4629-8338-cf372fb1b8f9'
+settings:
+  id: 'block_content:fad5fa7d-52ef-4629-8338-cf372fb1b8f9'
+  label: 'What we do'
+  provider: block_content
+  label_display: visible
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

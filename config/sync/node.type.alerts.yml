@@ -1,4 +1,4 @@
-uuid: 2dc3d09a-0b62-4827-a353-220eea6b3c72
+uuid: fc1c2d8a-ab4d-4af5-969a-e3707be93ed7
 langcode: en
 status: true
 dependencies:
@@ -6,12 +6,13 @@ dependencies:
     - menu_ui
 third_party_settings:
   menu_ui:
-    available_menus: {  }
-    parent: ''
+    available_menus:
+      - main
+    parent: 'main:'
 name: Alerts
 type: alerts
-description: 'News & Alerts'
+description: ''
 help: ''
 new_revision: false
 preview_mode: 1
-display_submitted: false
+display_submitted: true

@@ -9,7 +9,7 @@ features:
 facebook_url: 'https://www.facebook.com/crypcomnetwork'
 twitter_url: 'https://twitter.com/crypcomnetwork'
 google_plus_url: 'https://plus.google.com/106582433038454307946'
-linkedin_url: 'https://www.linkedin.com/in/usman-saqlain-8430549a/'
+linkedin_url: ''
 pinterest_url: ''
 rss_url: ''
 show_social_icon: 1
@@ -17,29 +17,26 @@ show_credit_link: 1
 show_slideshow: 1
 no_of_slides: '3'
 slide_title_1: 'Crypto Community Project'
-slide_description_1: 'Worlds First Crypto Project created and managed by the Community!'
-slide_url_1: /about
+slide_description_1: 'World''s first Blockchain Project, designed and developed by the Community itself to provide its desperately needed yet still missing services. '
+slide_url_1: '#'
 slide_image_path_1: /images/slider/slide_01.jpg
 slide_title_2: 'News & Alerts'
-slide_description_2: 'Community Project''s latest news and alerts!'
-slide_url_2: /alerts
+slide_description_2: 'Keep up to date with the project as the community embarks of this fascinating journey to develop solutions to it''s own problems. (alerts)'
+slide_url_2: '#'
 slide_image_path_2: /images/slider/slide_02.jpg
-slide_title_3: 'Timeline '
-slide_description_3: 'Community Project''s timeline and Important Events!'
-slide_url_3: /timeline
+slide_title_3: Events
+slide_description_3: 'Checkout our upcoming Events & Votes. You are welcome to join and be part of something great. (events)'
+slide_url_3: '#'
 slide_image_path_3: /images/slider/slide_03.jpg
 _core:
   default_config_hash: KaLNVgq6qGhSV-TerDCQAiCaPJrmq41RgHhVcYzbxjI
 logo:
   use_default: 0
-  path: 'public://10.png'
+  path: 'public://10_0.png'
 favicon:
   use_default: 0
-  path: 'public://smallLogo copy_1.png'
+  path: 'public://smallLogo copy_2.png'
   mimetype: image/png
-slide_image_path1:
-  - '57'
-slide_image_path2:
-  - '53'
-slide_image_path3:
-  - '52'
+slide_image_path1: {  }
+slide_image_path2: {  }
+slide_image_path3: {  }

@@ -1,0 +1,13 @@
+uuid: 86c77ce6-92ef-4a32-aef1-9bafc52c58cf
+langcode: en
+status: true
+dependencies:
+  enforced:
+    module:
+      - like_and_dislike
+_core:
+  default_config_hash: 3zl7g2OKC0tYyyq9f-4HDK-7rK6I7qACYhprZHKeEnc
+id: dislike
+label: 'Dislike vote'
+value_type: points
+description: 'A dislike vote, for negative reviews.'

@@ -1,13 +1,13 @@
-uuid: f6c3673b-f9cb-4ef9-a8be-b2fcc3604ec6
+uuid: baff17d1-fefe-419c-8631-be68b355c475
 langcode: en
 status: true
 dependencies: {  }
 _core:
-  default_config_hash: vymHlgJy26BuI5GGj9-IXjwR3dRC5C0tij4BpWJnoqw
+  default_config_hash: c4zaT5cyPxuTXI6JOWt3qRtMvICT9tHB6d9a5VG-CmQ
 id: feedback
 label: 'Website feedback'
 recipients:
-  - cryptocommunitynetwork@gmail.com
+  - D811@D811.com
 reply: ''
 weight: 0
 message: 'Your message has been sent.'
