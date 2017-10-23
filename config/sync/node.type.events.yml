@@ -1,4 +1,4 @@
-uuid: 1306da9f-99f1-4535-81c5-653347e31d6a
+uuid: f46e0adf-152f-44ca-a1e5-ef99ec0700b2
 langcode: en
 status: true
 dependencies:
@@ -11,8 +11,8 @@ third_party_settings:
     parent: 'main:'
 name: Events
 type: events
-description: 'Upcoming Events'
+description: ''
 help: ''
-new_revision: true
+new_revision: false
 preview_mode: 1
 display_submitted: false

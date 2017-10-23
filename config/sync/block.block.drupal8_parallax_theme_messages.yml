@@ -1,4 +1,4 @@
-uuid: 1162d6e2-6d6a-4de8-96a1-0b9575650c74
+uuid: eaa30eb5-f151-4229-8166-3ed52e52a615
 langcode: en
 status: true
 dependencies:
@@ -11,7 +11,7 @@ _core:
 id: drupal8_parallax_theme_messages
 theme: drupal8_parallax_theme
 region: highlighted
-weight: -50
+weight: -8
 provider: null
 plugin: system_messages_block
 settings:

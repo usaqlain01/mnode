@@ -1,0 +1,25 @@
+uuid: d151196d-ff34-4a41-8cb3-05f3ff46ba81
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:ef690a67-6dac-4c23-9da4-45c7aa87d7fb'
+  module:
+    - block_content
+  theme:
+    - drupal8_parallax_theme
+id: welcome
+theme: drupal8_parallax_theme
+region: homepagemessage
+weight: 0
+provider: null
+plugin: 'block_content:ef690a67-6dac-4c23-9da4-45c7aa87d7fb'
+settings:
+  id: 'block_content:ef690a67-6dac-4c23-9da4-45c7aa87d7fb'
+  label: Welcome
+  provider: block_content
+  label_display: visible
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

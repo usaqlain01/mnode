@@ -1,0 +1,21 @@
+uuid: c0c0507f-fc52-4c42-8a17-cf1e7dd6ddf5
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_target
+    - node.type.timeline_event
+  module:
+    - datetime
+id: node.timeline_event.field_target
+field_name: field_target
+entity_type: node
+bundle: timeline_event
+label: Target
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: datetime

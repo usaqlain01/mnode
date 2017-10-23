@@ -1,4 +1,4 @@
-uuid: b1c370d5-f972-4d0d-8808-6a187ca35ce7
+uuid: db6a292f-5147-443c-a8fa-789177186457
 langcode: en
 status: true
 dependencies:
@@ -11,7 +11,7 @@ _core:
 id: drupal8_parallax_theme_content
 theme: drupal8_parallax_theme
 region: content
-weight: 1
+weight: -13
 provider: null
 plugin: system_main_block
 settings:

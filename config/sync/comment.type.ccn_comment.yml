@@ -1,0 +1,8 @@
+uuid: 6407ba20-c5e5-4bc9-82c8-be67d21b6888
+langcode: en
+status: true
+dependencies: {  }
+id: ccn_comment
+label: 'CCN Comment'
+target_entity_type_id: node
+description: 'Default CCN Comments'

@@ -1,0 +1,21 @@
+uuid: dbee1938-1f23-4656-82f6-6d6ad1c8fb4d
+langcode: en
+status: true
+dependencies:
+  config:
+    - comment.type.collaboration_suggestion
+    - field.storage.comment.comment_body
+  module:
+    - text
+id: comment.collaboration_suggestion.comment_body
+field_name: comment_body
+entity_type: comment
+bundle: collaboration_suggestion
+label: Comment
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

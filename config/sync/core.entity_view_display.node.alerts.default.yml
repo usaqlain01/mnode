@@ -1,10 +1,11 @@
-uuid: b86af5c2-248a-41fe-924b-864a8a0c6c6a
+uuid: 696f7b6d-fa4f-49ec-840a-34b2e670bbff
 langcode: en
 status: true
 dependencies:
   config:
     - field.field.node.alerts.body
-    - field.field.node.alerts.field_alert_body_image
+    - field.field.node.alerts.field_event_image
+    - image.style.event_full
     - node.type.alerts
   module:
     - image
@@ -18,22 +19,23 @@ content:
   body:
     label: hidden
     type: text_default
-    weight: 2
+    weight: 1
     settings: {  }
     third_party_settings: {  }
     region: content
-  field_alert_body_image:
-    weight: 3
+  field_event_image:
+    weight: 0
     label: hidden
     settings:
-      image_style: ''
-      image_link: ''
+      image_style: event_full
+      image_link: content
     third_party_settings: {  }
     type: image
     region: content
   links:
-    weight: 0
+    weight: 2
     region: content
     settings: {  }
     third_party_settings: {  }
-hidden: {  }
+hidden:
+  like_and_dislike: true

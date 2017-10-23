@@ -1,4 +1,4 @@
-uuid: 54e54d53-f64f-486c-8654-26101f424480
+uuid: b850379c-e687-4ddf-84f8-dcfa00b46fce
 langcode: en
 status: true
 dependencies:
@@ -11,7 +11,7 @@ _core:
 id: drupal8_parallax_theme_powered
 theme: drupal8_parallax_theme
 region: auto_hidden_block
-weight: -10
+weight: -8
 provider: null
 plugin: system_powered_by_block
 settings:

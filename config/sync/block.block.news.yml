@@ -1,0 +1,31 @@
+uuid: 88cab8b0-b23b-46d5-b051-4585f9e5cbdf
+langcode: en
+status: false
+dependencies:
+  content:
+    - 'block_content:basic:d28311fe-df88-43e5-b805-2d45b82be3fd'
+  module:
+    - block_content
+    - system
+  theme:
+    - drupal8_parallax_theme
+id: news
+theme: drupal8_parallax_theme
+region: sidebar_second
+weight: 0
+provider: null
+plugin: 'block_content:d28311fe-df88-43e5-b805-2d45b82be3fd'
+settings:
+  id: 'block_content:d28311fe-df88-43e5-b805-2d45b82be3fd'
+  label: News
+  provider: block_content
+  label_display: visible
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    pages: "/layout/two-sidebar\r\n/layout/right-sidebar"
+    negate: false
+    context_mapping: {  }

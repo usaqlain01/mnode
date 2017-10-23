@@ -1,10 +1,10 @@
-uuid: 444cfdc0-b22f-4b5e-b138-76876b234aff
+uuid: 7fd6d809-c7b4-4254-89cc-463766623eb9
 langcode: en
 status: true
 dependencies:
   config:
     - field.field.node.alerts.body
-    - field.field.node.alerts.field_alert_body_image
+    - field.field.node.alerts.field_event_image
     - image.style.thumbnail
     - node.type.alerts
   module:
@@ -31,8 +31,8 @@ content:
     region: content
     settings: {  }
     third_party_settings: {  }
-  field_alert_body_image:
-    weight: 33
+  field_event_image:
+    weight: 32
     settings:
       progress_indicator: throbber
       preview_image_style: thumbnail

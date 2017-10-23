@@ -1,0 +1,25 @@
+uuid: 177aba90-97ab-4c9a-b2ca-c52a18ad1bf4
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:df4da330-c9fb-43c5-bd9f-55777298978b'
+  module:
+    - block_content
+  theme:
+    - drupal8_parallax_theme
+id: bottomthirdwidget
+theme: drupal8_parallax_theme
+region: bottom_third
+weight: 0
+provider: null
+plugin: 'block_content:df4da330-c9fb-43c5-bd9f-55777298978b'
+settings:
+  id: 'block_content:df4da330-c9fb-43c5-bd9f-55777298978b'
+  label: Android
+  provider: block_content
+  label_display: visible
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

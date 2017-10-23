@@ -1,4 +1,4 @@
-uuid: 11bd36b8-84c9-4b4a-8280-28274ff6d511
+uuid: 35714d7c-36f5-4ef2-aa6e-5fe4614782e9
 langcode: en
 status: true
 dependencies:
@@ -9,7 +9,7 @@ _core:
 id: drupal8_parallax_theme_local_tasks
 theme: drupal8_parallax_theme
 region: content
-weight: 0
+weight: -14
 provider: null
 plugin: local_tasks_block
 settings:

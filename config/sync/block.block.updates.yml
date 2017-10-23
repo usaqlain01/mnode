@@ -1,0 +1,31 @@
+uuid: 1d74aecd-2d65-45d4-b6eb-662ed82f305b
+langcode: en
+status: false
+dependencies:
+  content:
+    - 'block_content:basic:e7645b29-593e-46bc-97ac-c5af8ede7745'
+  module:
+    - block_content
+    - system
+  theme:
+    - drupal8_parallax_theme
+id: updates
+theme: drupal8_parallax_theme
+region: sidebar_first
+weight: 0
+provider: null
+plugin: 'block_content:e7645b29-593e-46bc-97ac-c5af8ede7745'
+settings:
+  id: 'block_content:e7645b29-593e-46bc-97ac-c5af8ede7745'
+  label: Updates
+  provider: block_content
+  label_display: visible
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    pages: "/layout/left-sidebar\r\n/layout/two-sidebar"
+    negate: false
+    context_mapping: {  }

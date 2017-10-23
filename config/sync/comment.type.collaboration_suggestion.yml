@@ -1,0 +1,8 @@
+uuid: dde97de4-3163-4e0e-a32a-28da81aa1253
+langcode: en
+status: true
+dependencies: {  }
+id: collaboration_suggestion
+label: 'Collaboration Suggestion'
+target_entity_type_id: node
+description: 'Non voted suggestion for collaboration purposes'

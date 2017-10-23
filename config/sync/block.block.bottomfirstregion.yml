@@ -1,0 +1,25 @@
+uuid: 0ef540ee-50f9-46d5-adb1-db845758b13d
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:52699042-66da-462c-b688-9c0bd9bb332e'
+  module:
+    - block_content
+  theme:
+    - drupal8_parallax_theme
+id: bottomfirstregion
+theme: drupal8_parallax_theme
+region: bottom_first
+weight: 0
+provider: null
+plugin: 'block_content:52699042-66da-462c-b688-9c0bd9bb332e'
+settings:
+  id: 'block_content:52699042-66da-462c-b688-9c0bd9bb332e'
+  label: eCommerce
+  provider: block_content
+  label_display: visible
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

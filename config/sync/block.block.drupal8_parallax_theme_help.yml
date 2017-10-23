@@ -1,4 +1,4 @@
-uuid: 2e350341-1818-4ae3-90bd-b94fcaeb2d73
+uuid: dd9dc331-7d7f-497e-994a-d25825b80ffc
 langcode: en
 status: true
 dependencies:
@@ -11,7 +11,7 @@ _core:
 id: drupal8_parallax_theme_help
 theme: drupal8_parallax_theme
 region: highlighted
-weight: -30
+weight: -8
 provider: null
 plugin: help_block
 settings:

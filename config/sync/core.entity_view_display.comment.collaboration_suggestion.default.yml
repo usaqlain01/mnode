@@ -1,0 +1,23 @@
+uuid: 1fe2f039-b567-462e-a828-86e0a225373b
+langcode: en
+status: true
+dependencies:
+  config:
+    - comment.type.collaboration_suggestion
+    - field.field.comment.collaboration_suggestion.comment_body
+  module:
+    - text
+id: comment.collaboration_suggestion.default
+targetEntityType: comment
+bundle: collaboration_suggestion
+mode: default
+content:
+  comment_body:
+    label: hidden
+    type: text_default
+    weight: 0
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden:
+  links: true

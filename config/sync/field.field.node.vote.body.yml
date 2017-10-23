@@ -1,0 +1,22 @@
+uuid: bb8f0119-a8a4-4617-859c-de5c678c6e1b
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.vote
+  module:
+    - text
+id: node.vote.body
+field_name: body
+entity_type: node
+bundle: vote
+label: Body
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+field_type: text_with_summary
