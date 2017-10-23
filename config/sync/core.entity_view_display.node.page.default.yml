@@ -1,17 +1,17 @@
-uuid: fc5c9b0b-bca4-449f-9bd3-4dbe6ac04a8c
+uuid: 749ec385-a835-4b69-be26-1ad0e6078cfd
 langcode: en
 status: true
 dependencies:
   config:
     - field.field.node.page.body
-    - field.field.node.page.field_page_image
+    - field.field.node.page.field_comments
     - node.type.page
   module:
-    - image
+    - comment
     - text
     - user
 _core:
-  default_config_hash: g1S3_GLaxq4l3I9RIca5Mlz02MxI2KmOquZpHw59akM
+  default_config_hash: oZ-7vpIJxjxL2up9B5KrJGD0lazQ9aN0P-fIPo6OrSU
 id: node.page.default
 targetEntityType: node
 bundle: page
@@ -21,21 +21,19 @@ content:
     label: hidden
     type: text_default
     weight: 100
-    region: content
     settings: {  }
     third_party_settings: {  }
-  field_page_image:
+    region: content
+  field_comments:
     weight: 102
-    label: hidden
+    label: above
     settings:
-      image_style: ''
-      image_link: ''
+      view_mode: default
+      pager_id: 0
     third_party_settings: {  }
-    type: image
+    type: comment_default
     region: content
   links:
     weight: 101
     region: content
-    settings: {  }
-    third_party_settings: {  }
 hidden: {  }

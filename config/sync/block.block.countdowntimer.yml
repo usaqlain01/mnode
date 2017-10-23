@@ -1,0 +1,22 @@
+uuid: 570b8c8c-e543-4e0f-8f2d-6063e607d572
+langcode: en
+status: true
+dependencies:
+  module:
+    - jquery_countdown_timer
+  theme:
+    - drupal8_parallax_theme
+id: countdowntimer
+theme: drupal8_parallax_theme
+region: homepagemessage
+weight: 0
+provider: null
+plugin: jquery_countdown_timer
+settings:
+  id: jquery_countdown_timer
+  label: 'Kickoff Meeting'
+  provider: jquery_countdown_timer
+  label_display: visible
+  countdown_datetime: '2017-11-05 18:00:00'
+  font_size: '18'
+visibility: {  }

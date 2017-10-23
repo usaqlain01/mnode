@@ -1,0 +1,21 @@
+uuid: b8855710-58c6-4f2d-ab23-aeb1c2586880
+langcode: en
+status: true
+dependencies:
+  config:
+    - comment.type.voting_option
+    - field.storage.comment.comment_body
+  module:
+    - text
+id: comment.voting_option.comment_body
+field_name: comment_body
+entity_type: comment
+bundle: voting_option
+label: Comment
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

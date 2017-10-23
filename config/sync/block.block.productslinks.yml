@@ -1,0 +1,25 @@
+uuid: d7999546-7831-4f0f-9e20-5af7bec21c99
+langcode: en
+status: false
+dependencies:
+  content:
+    - 'block_content:basic:86660726-3bda-4c58-a0f2-5de56098213b'
+  module:
+    - block_content
+  theme:
+    - drupal8_parallax_theme
+id: productslinks
+theme: drupal8_parallax_theme
+region: footer_third
+weight: 0
+provider: null
+plugin: 'block_content:86660726-3bda-4c58-a0f2-5de56098213b'
+settings:
+  id: 'block_content:86660726-3bda-4c58-a0f2-5de56098213b'
+  label: Vision
+  provider: block_content
+  label_display: visible
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

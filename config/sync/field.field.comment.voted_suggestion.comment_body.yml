@@ -1,0 +1,21 @@
+uuid: bcf8214b-fb75-410a-a767-752ceb6369ef
+langcode: en
+status: true
+dependencies:
+  config:
+    - comment.type.voted_suggestion
+    - field.storage.comment.comment_body
+  module:
+    - text
+id: comment.voted_suggestion.comment_body
+field_name: comment_body
+entity_type: comment
+bundle: voted_suggestion
+label: Comment
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

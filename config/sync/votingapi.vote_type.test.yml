@@ -1,0 +1,10 @@
+uuid: b02143b1-aece-42bb-bfc8-adfa178f3410
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: _RcnN__AKmaUFv6Ap1yP4hPDcDV2tbF2AH-zxEKgBlw
+id: test
+label: 'Test vote'
+value_type: points
+description: 'A generic vote used for testing purposes.'

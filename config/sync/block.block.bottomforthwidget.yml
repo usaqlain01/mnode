@@ -1,0 +1,25 @@
+uuid: 099ad3cd-cabf-451a-b573-c2747283ee49
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:2fadf78c-aa20-40cb-8579-c48faba2f260'
+  module:
+    - block_content
+  theme:
+    - drupal8_parallax_theme
+id: bottomforthwidget
+theme: drupal8_parallax_theme
+region: bottom_forth
+weight: 0
+provider: null
+plugin: 'block_content:2fadf78c-aa20-40cb-8579-c48faba2f260'
+settings:
+  id: 'block_content:2fadf78c-aa20-40cb-8579-c48faba2f260'
+  label: iOS
+  provider: block_content
+  label_display: visible
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

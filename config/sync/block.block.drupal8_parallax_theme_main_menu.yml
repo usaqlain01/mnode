@@ -1,4 +1,4 @@
-uuid: 0b5efe13-6444-492c-b8ce-5bc2dc5941ac
+uuid: ec71e006-1b6d-4550-b672-7876b1674e58
 langcode: en
 status: true
 dependencies:
@@ -13,7 +13,7 @@ _core:
 id: drupal8_parallax_theme_main_menu
 theme: drupal8_parallax_theme
 region: primary_menu
-weight: 10
+weight: -8
 provider: null
 plugin: 'system_menu_block:main'
 settings:
@@ -22,5 +22,5 @@ settings:
   provider: system
   label_display: '0'
   level: 1
-  depth: 2
+  depth: 4
 visibility: {  }

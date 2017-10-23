@@ -1,0 +1,25 @@
+uuid: 9b49c1d8-29ba-4fa2-a5f7-186a6fc5cbac
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:8a497d73-b439-4472-9798-e77f79ec46e2'
+  module:
+    - block_content
+  theme:
+    - drupal8_parallax_theme
+id: contactinfo
+theme: drupal8_parallax_theme
+region: address
+weight: 0
+provider: null
+plugin: 'block_content:8a497d73-b439-4472-9798-e77f79ec46e2'
+settings:
+  id: 'block_content:8a497d73-b439-4472-9798-e77f79ec46e2'
+  label: 'Contact Info'
+  provider: block_content
+  label_display: visible
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

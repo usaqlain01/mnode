@@ -1,4 +1,4 @@
-uuid: 96b67a47-94a1-45fd-98d1-5cb52a2ada71
+uuid: 9b85503e-a2af-4e7e-8560-69e1081f5cb1
 langcode: en
 status: true
 dependencies: {  }
@@ -13,6 +13,11 @@ permissions:
   - 'access content'
   - 'access shortcuts'
   - 'access site-wide contact form'
+  - 'add or remove dislike votes on alerts of node'
+  - 'add or remove dislike votes on voting_option of comment'
+  - 'add or remove like votes on voting_option of comment'
+  - 'add or remove test votes on voting_option of comment'
+  - 'add or remove vote votes on voting_option of comment'
   - 'post comments'
   - 'search content'
   - 'skip comment approval'

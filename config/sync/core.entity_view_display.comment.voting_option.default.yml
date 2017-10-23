@@ -1,0 +1,28 @@
+uuid: f4262b4d-fdb2-46c3-af94-cb853147d8c0
+langcode: en
+status: true
+dependencies:
+  config:
+    - comment.type.voting_option
+    - field.field.comment.voting_option.comment_body
+  module:
+    - text
+id: comment.voting_option.default
+targetEntityType: comment
+bundle: voting_option
+mode: default
+content:
+  comment_body:
+    label: hidden
+    type: text_default
+    weight: 0
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  like_and_dislike:
+    weight: 1
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden:
+  links: true

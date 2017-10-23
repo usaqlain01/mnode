@@ -1,0 +1,29 @@
+uuid: 85e4705b-c8de-4add-b724-27cbc0dc97a6
+langcode: en
+status: true
+dependencies:
+  config:
+    - comment.type.voted_suggestion
+    - field.field.comment.voted_suggestion.comment_body
+  module:
+    - text
+id: comment.voted_suggestion.default
+targetEntityType: comment
+bundle: voted_suggestion
+mode: default
+content:
+  author:
+    weight: 0
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  comment_body:
+    type: text_textarea
+    weight: 1
+    settings:
+      rows: 3
+      placeholder: ''
+    third_party_settings: {  }
+    region: content
+hidden:
+  subject: true

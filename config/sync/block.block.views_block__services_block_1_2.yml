@@ -1,0 +1,24 @@
+uuid: 62bd0987-0ce5-4d15-9c9b-d24f0787fcae
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.services
+  module:
+    - views
+  theme:
+    - drupal8_parallax_theme
+id: views_block__services_block_1_2
+theme: drupal8_parallax_theme
+region: services
+weight: -15
+provider: null
+plugin: 'views_block:services-block_1'
+settings:
+  id: 'views_block:services-block_1'
+  label: ''
+  provider: views
+  label_display: visible
+  views_label: ''
+  items_per_page: none
+visibility: {  }

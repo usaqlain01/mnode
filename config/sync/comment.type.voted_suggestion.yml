@@ -1,0 +1,8 @@
+uuid: 0cc58301-40a5-4758-a657-8a1e777e1ac1
+langcode: en
+status: true
+dependencies: {  }
+id: voted_suggestion
+label: 'Voted Suggestion'
+target_entity_type_id: node
+description: 'For Suggestions that would put to Vote.'

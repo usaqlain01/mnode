@@ -1,0 +1,25 @@
+uuid: 393d7c87-a560-42f2-bed1-af2eeb330371
+langcode: en
+status: false
+dependencies:
+  content:
+    - 'block_content:basic:b7e2c1ad-dcb7-4dd9-b3a3-78aad938b7df'
+  module:
+    - block_content
+  theme:
+    - drupal8_parallax_theme
+id: ourlocation
+theme: drupal8_parallax_theme
+region: footer_first
+weight: 0
+provider: null
+plugin: 'block_content:b7e2c1ad-dcb7-4dd9-b3a3-78aad938b7df'
+settings:
+  id: 'block_content:b7e2c1ad-dcb7-4dd9-b3a3-78aad938b7df'
+  label: Location
+  provider: block_content
+  label_display: visible
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

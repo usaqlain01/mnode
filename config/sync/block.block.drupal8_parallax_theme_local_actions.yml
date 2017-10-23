@@ -1,4 +1,4 @@
-uuid: cf7070fe-c29f-4b12-9406-e002f8515762
+uuid: 1cd10ac2-5125-47f0-af06-55f0f0df38b7
 langcode: en
 status: true
 dependencies:
@@ -9,7 +9,7 @@ _core:
 id: drupal8_parallax_theme_local_actions
 theme: drupal8_parallax_theme
 region: auto_hidden_block
-weight: 20
+weight: -8
 provider: null
 plugin: local_actions_block
 settings:

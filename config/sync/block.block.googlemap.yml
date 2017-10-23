@@ -1,0 +1,25 @@
+uuid: 11bda587-8ffd-4871-9bf5-fbd2f72598d1
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:0204f193-8787-4a6f-a98b-3c91ae3b2c7f'
+  module:
+    - block_content
+  theme:
+    - drupal8_parallax_theme
+id: googlemap
+theme: drupal8_parallax_theme
+region: google_map
+weight: 0
+provider: null
+plugin: 'block_content:0204f193-8787-4a6f-a98b-3c91ae3b2c7f'
+settings:
+  id: 'block_content:0204f193-8787-4a6f-a98b-3c91ae3b2c7f'
+  label: 'Google Map'
+  provider: block_content
+  label_display: visible
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

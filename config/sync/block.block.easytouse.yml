@@ -1,0 +1,25 @@
+uuid: 85a69176-cc9f-4079-af26-13bdbe5df21e
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:4310acec-60d1-495f-b016-ca32e8f53f7b'
+  module:
+    - block_content
+  theme:
+    - drupal8_parallax_theme
+id: easytouse
+theme: drupal8_parallax_theme
+region: topwidget_third
+weight: 0
+provider: null
+plugin: 'block_content:4310acec-60d1-495f-b016-ca32e8f53f7b'
+settings:
+  id: 'block_content:4310acec-60d1-495f-b016-ca32e8f53f7b'
+  label: 'Easy to use'
+  provider: block_content
+  label_display: visible
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

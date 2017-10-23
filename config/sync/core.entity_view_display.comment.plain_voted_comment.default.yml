@@ -1,0 +1,25 @@
+uuid: e2ac0aeb-f43b-4faf-bb5a-e6a326be2711
+langcode: en
+status: true
+dependencies:
+  config:
+    - comment.type.plain_voted_comment
+    - field.field.comment.plain_voted_comment.comment_body
+  module:
+    - text
+id: comment.plain_voted_comment.default
+targetEntityType: comment
+bundle: plain_voted_comment
+mode: default
+content:
+  comment_body:
+    label: hidden
+    type: text_default
+    weight: 0
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    region: content
+hidden: {  }
