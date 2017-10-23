@@ -1,0 +1,23 @@
+{#
+/**
+ * @file
+ * Theme override for an 'input' #type form element.
+ *
+ * Available variables:
+ * - attributes: A list of HTML attributes for the input element.
+ * - children: Optional additional rendered elements.
+ *
+ * @see template_preprocess_input()
+ */
+#}
+
+{%
+  set widthclasses = [
+	'col-xs-11',
+	'col-sm-11',
+	'col-md-11', 
+	'col-lg-11',
+  ]
+%}
+<div{{ attributes.addClass(classes) }}></div>
+<input{{ attributes.addClass(widthclasses) }} />{{ children }}
