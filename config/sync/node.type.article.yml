@@ -1,12 +1,19 @@
 uuid: 7af1dd5d-3e89-427f-bd65-6e7c3d2fd14f
 langcode: en
 status: true
-dependencies: {  }
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus:
+      - main
+    parent: 'main:'
 _core:
   default_config_hash: i4OVV5qrD7abstl4SKS8v5Ee7PuxrL548iZVSty1HRg
 name: Article
 type: article
-description: 'Use <em>articles</em> for time-sensitive content like news, press releases or blog posts.'
+description: 'Use for General purpose content, tutorial and stories.'
 help: ''
 new_revision: false
 preview_mode: 1

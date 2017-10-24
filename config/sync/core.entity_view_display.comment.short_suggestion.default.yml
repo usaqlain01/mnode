@@ -1,0 +1,27 @@
+uuid: dedc29c2-7e2f-4ffd-b7e4-f323fef2a0dd
+langcode: en
+status: true
+dependencies:
+  config:
+    - comment.type.short_suggestion
+    - field.field.comment.short_suggestion.field_comment
+id: comment.short_suggestion.default
+targetEntityType: comment
+bundle: short_suggestion
+mode: default
+content:
+  field_comment:
+    weight: 0
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  like_and_dislike:
+    weight: 1
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden:
+  links: true

@@ -1,0 +1,8 @@
+uuid: 1569a5cc-d49b-4d2e-a646-3cb376ca2c1b
+langcode: en
+status: true
+dependencies: {  }
+id: long_suggestion
+label: 'Long Suggestion'
+target_entity_type_id: node
+description: 'Voted Text Area Suggestion'

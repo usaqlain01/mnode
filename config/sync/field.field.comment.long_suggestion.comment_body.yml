@@ -1,17 +1,17 @@
-uuid: dbee1938-1f23-4656-82f6-6d6ad1c8fb4d
+uuid: 7d7963a9-1620-4932-80d5-1797fb9d1036
 langcode: en
 status: true
 dependencies:
   config:
-    - comment.type.collaboration_suggestion
+    - comment.type.long_suggestion
     - field.storage.comment.comment_body
   module:
     - text
-id: comment.collaboration_suggestion.comment_body
+id: comment.long_suggestion.comment_body
 field_name: comment_body
 entity_type: comment
-bundle: collaboration_suggestion
-label: Comment
+bundle: long_suggestion
+label: Suggestion
 description: ''
 required: true
 translatable: true

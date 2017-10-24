@@ -1,0 +1,54 @@
+uuid: bf4a35fe-6311-49bf-87b8-6494dca486ae
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_display.comment.short_suggestion.default
+    - core.entity_view_mode.node.teaser
+    - field.field.node.pick.body
+    - field.field.node.pick.field_event_image
+    - field.field.node.pick.field_picks
+    - image.style.event_thumbnail
+    - node.type.pick
+  module:
+    - comment
+    - image
+    - text
+    - user
+id: node.pick.teaser
+targetEntityType: node
+bundle: pick
+mode: teaser
+content:
+  body:
+    label: hidden
+    type: text_summary_or_trimmed
+    weight: 1
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    region: content
+  field_event_image:
+    type: image
+    weight: 0
+    region: content
+    label: hidden
+    settings:
+      image_style: event_thumbnail
+      image_link: content
+    third_party_settings: {  }
+  field_picks:
+    type: comment_default
+    weight: 2
+    region: content
+    label: above
+    settings:
+      view_mode: default
+      pager_id: 0
+    third_party_settings: {  }
+  links:
+    weight: 3
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden: {  }

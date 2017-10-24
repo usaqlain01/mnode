@@ -10,7 +10,7 @@ third_party_settings:
     parent: ''
 name: Vote
 type: vote
-description: ''
+description: 'Use for Multiple choice voting.'
 help: ''
 new_revision: false
 preview_mode: 0

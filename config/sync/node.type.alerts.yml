@@ -11,7 +11,7 @@ third_party_settings:
     parent: 'main:'
 name: Alerts
 type: alerts
-description: ''
+description: 'Use for News, Updates and Announcements.'
 help: ''
 new_revision: false
 preview_mode: 1

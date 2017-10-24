@@ -1,0 +1,27 @@
+uuid: 6e8c437c-17a6-4612-9fb5-82d289b9531e
+langcode: en
+status: true
+dependencies:
+  config:
+    - comment.type.short_suggestion
+    - field.field.comment.short_suggestion.field_comment
+id: comment.short_suggestion.default
+targetEntityType: comment
+bundle: short_suggestion
+mode: default
+content:
+  author:
+    weight: 0
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  field_comment:
+    weight: 3
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+hidden:
+  subject: true

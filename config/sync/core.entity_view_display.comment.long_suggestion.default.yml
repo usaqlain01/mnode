@@ -1,0 +1,28 @@
+uuid: cfa0658c-0f3a-4179-a3db-2ec45415240b
+langcode: en
+status: true
+dependencies:
+  config:
+    - comment.type.long_suggestion
+    - field.field.comment.long_suggestion.comment_body
+  module:
+    - text
+id: comment.long_suggestion.default
+targetEntityType: comment
+bundle: long_suggestion
+mode: default
+content:
+  comment_body:
+    label: hidden
+    type: text_default
+    weight: 0
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  like_and_dislike:
+    weight: 1
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden:
+  links: true
