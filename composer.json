@@ -24,6 +24,7 @@
         "drupal/jquery_countdown_timer": "^1.1",
         "drupal/like_and_dislike": "^1.0@alpha",
         "drupal/simple_timeline": "^1.1",
+        "drupal/smtp": "^1.0@beta",
         "drupal/votingapi": "^3.0@alpha",
         "drush/drush": "~8.0",
         "webflo/drupal-finder": "^0.3.0",
