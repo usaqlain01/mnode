@@ -1,0 +1,8 @@
+uuid: bab7166a-fae0-4ebe-8969-f6a4c7e61deb
+langcode: en
+status: true
+dependencies: {  }
+id: short_suggestion
+label: 'Short Suggestion'
+target_entity_type_id: node
+description: 'Voted Plain Text Suggestion'

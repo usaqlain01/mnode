@@ -1,4 +1,4 @@
-uuid: f544c17e-e639-47c1-abc4-34c45598952a
+uuid: cc38ebd4-0d05-4ee9-a6b5-76696daa1318
 langcode: en
 status: true
 dependencies:
@@ -8,9 +8,9 @@ third_party_settings:
   menu_ui:
     available_menus: {  }
     parent: ''
-name: Timeline
-type: timeline_event
-description: 'Use for Project''s Road-Map / Timeline. With a Target Finish Date.'
+name: Pick
+type: pick
+description: 'For Short One Line Voted Suggestion'
 help: ''
 new_revision: false
 preview_mode: 0

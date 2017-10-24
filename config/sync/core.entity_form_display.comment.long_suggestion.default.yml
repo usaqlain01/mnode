@@ -1,15 +1,15 @@
-uuid: 85e4705b-c8de-4add-b724-27cbc0dc97a6
+uuid: 2be26451-0e89-45fa-b54e-40aaebd9a68d
 langcode: en
 status: true
 dependencies:
   config:
-    - comment.type.voted_suggestion
-    - field.field.comment.voted_suggestion.comment_body
+    - comment.type.long_suggestion
+    - field.field.comment.long_suggestion.comment_body
   module:
     - text
-id: comment.voted_suggestion.default
+id: comment.long_suggestion.default
 targetEntityType: comment
-bundle: voted_suggestion
+bundle: long_suggestion
 mode: default
 content:
   author:

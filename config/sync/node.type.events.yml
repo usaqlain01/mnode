@@ -11,7 +11,7 @@ third_party_settings:
     parent: 'main:'
 name: Events
 type: events
-description: ''
+description: 'Use for events at a moment in time'
 help: ''
 new_revision: false
 preview_mode: 1

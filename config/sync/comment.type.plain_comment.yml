@@ -1,8 +1,0 @@
-uuid: 4d6369ca-1693-4696-b654-ebc6a2b8b362
-langcode: en
-status: true
-dependencies: {  }
-id: plain_comment
-label: 'Plain Comment'
-target_entity_type_id: node
-description: ''

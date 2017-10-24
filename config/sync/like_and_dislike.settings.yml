@@ -1,6 +1,8 @@
 allow_cancel_vote: true
 enabled_types:
   comment:
+    - long_suggestion
+    - short_suggestion
     - voting_option
 _core:
   default_config_hash: k7WfBSzzmG-nGCieW-Rh3Z5LQ0fVq8pre9uLqRIpxVI

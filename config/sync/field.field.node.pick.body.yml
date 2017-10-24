@@ -1,0 +1,22 @@
+uuid: b278f662-2689-4cce-8af6-46acb7b89b1e
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.pick
+  module:
+    - text
+id: node.pick.body
+field_name: body
+entity_type: node
+bundle: pick
+label: Body
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+field_type: text_with_summary

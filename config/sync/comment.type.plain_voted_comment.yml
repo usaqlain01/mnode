@@ -1,8 +1,0 @@
-uuid: ee9367b5-a615-429e-b161-604caef00e8b
-langcode: en
-status: true
-dependencies: {  }
-id: plain_voted_comment
-label: 'Plain Voted Comment'
-target_entity_type_id: node
-description: ''
