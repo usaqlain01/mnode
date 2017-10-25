@@ -344,6 +344,10 @@ nav h2 { display: none; }
 .region-top-menu nav li:last-child a { background: #f00; }
 .region-top-menu nav li:last-child a:hover { background: #f11818; }
 
+/*User Account Menu*/
+/*ul.user-account-menu { float: left; }
+ul.user-account-menu li a { padding: 0; }*/
+
 /*Demo Typography*/
 .bd-example { position: relative; padding: 20px; border: 2px solid #f7f7f9; }
 
@@ -426,3 +430,96 @@ nav h2 { display: none; }
 .field--name-field-service .owl-item * { color: #e4e4e4; }
 
 .content-image { float: left; margin: 0 10px 5px 0; }
+
+/*----------------------------
+	Custom
+-----------------------------*/
+div.js-form-item-field-comment-0-value.form-item-field-comment-0-value > input#edit-field-comment-0-value {
+    max-width: 80%;
+}
+div.js-form-item-field-comment-0-value.form-item-field-comment-0-value > input#edit-field-comment-0-value--2 {
+    max-width: 80%;
+}
+div.js-form-item.form-item.js-form-type-textfield.form-type-textfield.js-form-item-field-name-0-value.form-item-field-name-0-value {
+	float: left;
+		padding-right: 10px;
+}
+div.js-form-item.form-item.js-form-type-email.form-type-email.js-form-item-field-email-address--0-value.form-item-field-email-address--0-value {
+	float: left;
+		padding-right: 10px;
+}
+div.js-form-item.form-item.js-form-type-checkbox.form-type-checkbox.js-form-item-field-crypto-hub-value.form-item-field-crypto-hub-value {
+	clear: both;
+	float: left;
+	margin-top: -5px;
+	padding-right: 10px;
+}
+div.js-form-item.form-item.js-form-type-checkbox.form-type-checkbox.js-form-item-field-masternoders-value.form-item-field-masternoders-value {
+	float: left;
+	margin-top: -5px;
+	padding-right: 10px;
+}
+div.js-form-item.form-item.js-form-type-checkbox.form-type-checkbox.js-form-item-field-ccn-updates-value.form-item-field-ccn-updates-value {
+	clear: both;
+	padding-right: 10px;
+}
+div.js-form-item.form-item.js-form-type-checkbox.form-type-checkbox.js-form-item-field-administrative-team-value.form-item-field-administrative-team-value {
+	clear: both;
+	padding-right: 10px;
+	float: left;
+}
+div.js-form-item.form-item.js-form-type-checkbox.form-type-checkbox.js-form-item-field-development-team-value.form-item-field-development-team-value {
+	padding-right: 10px;
+	float: left;
+}
+div.js-form-item.form-item.js-form-type-checkbox.form-type-checkbox.js-form-item-field-social-media-team-value.form-item-field-social-media-team-value {
+	padding-right: 10px;
+	float: left;
+}
+div.js-form-item.form-item.js-form-type-checkbox.form-type-checkbox.js-form-item-field-pre-ico-financial-backing-value.form-item-field-pre-ico-financial-backing-value {
+	clear: both;
+}
+div#edit-actions{
+	clear: both;
+}
+div#edit-actions--1{
+	clear: both;
+}
+div#edit-actions--2{
+	clear: both;
+}
+div#edit-actions--3{
+	clear: both;
+}
+div#edit-actions--4{
+	clear: both;
+}
+div#edit-actions--5{
+	clear: both;
+}
+input#edit-preview {
+	display: none;
+}
+input#edit-preview--1 {
+	display: none;
+}
+input#edit-preview--2 {
+	display: none;
+}
+input#edit-preview--3 {
+	display: none;
+}
+input#edit-preview--4 {
+	display: none;
+}
+input#edit-preview--5 {
+	display: none;
+}
+/*input#edit-field-name-0-value {
+	float: left;
+}
+input#edit-field-email-address-0-value {
+	float: left;
+}
+*/
+
