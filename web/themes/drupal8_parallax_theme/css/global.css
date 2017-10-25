@@ -516,7 +516,10 @@ input#edit-preview--5 {
 	display: none;
 }
 a[href="/user/login"], a[href="/user/logout"] {
-  color: red !important;
+  color: blue !important;
+}
+div.site-branding__name > a[href="/"], a[href="/user/logout"] {
+  font-size: 75%;
 }
 
 
