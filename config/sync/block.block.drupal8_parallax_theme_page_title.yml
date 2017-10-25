@@ -9,7 +9,7 @@ _core:
 id: drupal8_parallax_theme_page_title
 theme: drupal8_parallax_theme
 region: page_title
-weight: 0
+weight: -16
 provider: null
 plugin: page_title_block
 settings:

@@ -11,7 +11,7 @@ dependencies:
 id: googlemap
 theme: drupal8_parallax_theme
 region: google_map
-weight: 0
+weight: -17
 provider: null
 plugin: 'block_content:0204f193-8787-4a6f-a98b-3c91ae3b2c7f'
 settings:

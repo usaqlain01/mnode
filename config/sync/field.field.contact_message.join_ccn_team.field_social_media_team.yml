@@ -1,0 +1,23 @@
+uuid: 03031702-d845-475d-8efb-fd9760ba8adb
+langcode: en
+status: true
+dependencies:
+  config:
+    - contact.form.join_ccn_team
+    - field.storage.contact_message.field_social_media_team
+id: contact_message.join_ccn_team.field_social_media_team
+field_name: field_social_media_team
+entity_type: contact_message
+bundle: join_ccn_team
+label: 'Social Media Team'
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

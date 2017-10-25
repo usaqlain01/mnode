@@ -1,0 +1,23 @@
+uuid: 8d4a1a74-bba8-41db-9000-e23f70f4cfa0
+langcode: en
+status: true
+dependencies:
+  config:
+    - contact.form.join_ccn_team
+    - field.storage.contact_message.field_crypto_know_how
+id: contact_message.join_ccn_team.field_crypto_know_how
+field_name: field_crypto_know_how
+entity_type: contact_message
+bundle: join_ccn_team
+label: 'Crypto Know How'
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

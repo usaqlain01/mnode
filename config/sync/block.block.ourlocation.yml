@@ -11,7 +11,7 @@ dependencies:
 id: ourlocation
 theme: drupal8_parallax_theme
 region: footer_first
-weight: 0
+weight: -15
 provider: null
 plugin: 'block_content:b7e2c1ad-dcb7-4dd9-b3a3-78aad938b7df'
 settings:

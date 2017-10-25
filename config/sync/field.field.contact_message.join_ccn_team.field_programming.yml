@@ -1,0 +1,23 @@
+uuid: 14b45540-a9e9-4677-8033-9a71dc3ed3e3
+langcode: en
+status: true
+dependencies:
+  config:
+    - contact.form.join_ccn_team
+    - field.storage.contact_message.field_programming
+id: contact_message.join_ccn_team.field_programming
+field_name: field_programming
+entity_type: contact_message
+bundle: join_ccn_team
+label: Programming
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

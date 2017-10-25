@@ -12,7 +12,7 @@ dependencies:
 id: news
 theme: drupal8_parallax_theme
 region: sidebar_second
-weight: 0
+weight: -16
 provider: null
 plugin: 'block_content:d28311fe-df88-43e5-b805-2d45b82be3fd'
 settings:

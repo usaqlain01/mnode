@@ -11,7 +11,7 @@ dependencies:
 id: quality
 theme: drupal8_parallax_theme
 region: topwidget_first
-weight: 0
+weight: -17
 provider: null
 plugin: 'block_content:40cbc9ff-458c-4664-bfff-bee745a3f4e0'
 settings:

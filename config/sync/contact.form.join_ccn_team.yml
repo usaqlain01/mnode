@@ -1,0 +1,13 @@
+uuid: df8d60ae-2549-408c-b47f-859cf57dcbcf
+langcode: en
+status: true
+dependencies: {  }
+id: join_ccn_team
+label: 'Join CCN Team'
+recipients:
+  - cryptocommunitynetwork@gmail.com
+  - mauro@live.co.uk
+reply: ''
+weight: 0
+message: 'Thanks for joining the CCN Nation. We will email you shortly'
+redirect: ''

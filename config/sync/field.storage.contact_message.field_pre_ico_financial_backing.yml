@@ -1,0 +1,18 @@
+uuid: b00c3d13-9742-4a49-b388-f89e336430c4
+langcode: en
+status: true
+dependencies:
+  module:
+    - contact
+id: contact_message.field_pre_ico_financial_backing
+field_name: field_pre_ico_financial_backing
+entity_type: contact_message
+type: boolean
+settings: {  }
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

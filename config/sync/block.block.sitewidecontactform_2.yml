@@ -1,0 +1,27 @@
+uuid: f169b34c-cbff-4cae-9260-331121f789cc
+langcode: en
+status: true
+dependencies:
+  module:
+    - contact
+    - system
+  theme:
+    - drupal8_parallax_theme
+id: sitewidecontactform_2
+theme: drupal8_parallax_theme
+region: content
+weight: -13
+provider: null
+plugin: formblock_contact
+settings:
+  id: formblock_contact
+  label: 'Join CCN'
+  provider: contact
+  label_display: visible
+  contact_form: join_ccn_team
+visibility:
+  request_path:
+    id: request_path
+    pages: /join
+    negate: false
+    context_mapping: {  }

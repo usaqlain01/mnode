@@ -1,0 +1,27 @@
+uuid: 1082d726-bbe7-41a3-af7a-d2f469fe52d0
+langcode: en
+status: true
+dependencies:
+  config:
+    - contact.form.subscribe
+    - field.field.contact_message.subscribe.field_email_address_
+id: contact_message.subscribe.default
+targetEntityType: contact_message
+bundle: subscribe
+mode: default
+content:
+  field_email_address_:
+    weight: 0
+    settings:
+      size: 60
+      placeholder: 'Email Address '
+    third_party_settings: {  }
+    type: email_default
+    region: content
+hidden:
+  copy: true
+  mail: true
+  message: true
+  name: true
+  preview: true
+  subject: true

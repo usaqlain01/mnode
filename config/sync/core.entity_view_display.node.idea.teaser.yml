@@ -32,7 +32,7 @@ content:
     type: image
     weight: 0
     region: content
-    label: above
+    label: hidden
     settings:
       image_style: event_thumbnail
       image_link: content

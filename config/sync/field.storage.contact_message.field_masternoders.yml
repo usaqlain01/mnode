@@ -1,0 +1,18 @@
+uuid: a109bf77-aa87-4924-8712-026d97b62688
+langcode: en
+status: true
+dependencies:
+  module:
+    - contact
+id: contact_message.field_masternoders
+field_name: field_masternoders
+entity_type: contact_message
+type: boolean
+settings: {  }
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

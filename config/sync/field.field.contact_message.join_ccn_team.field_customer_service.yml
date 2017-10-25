@@ -1,0 +1,23 @@
+uuid: 571d7d91-a8b6-46d6-aa0b-05c8fbd8654c
+langcode: en
+status: true
+dependencies:
+  config:
+    - contact.form.join_ccn_team
+    - field.storage.contact_message.field_customer_service
+id: contact_message.join_ccn_team.field_customer_service
+field_name: field_customer_service
+entity_type: contact_message
+bundle: join_ccn_team
+label: 'Customer Service'
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

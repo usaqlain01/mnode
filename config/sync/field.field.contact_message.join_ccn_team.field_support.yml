@@ -1,0 +1,23 @@
+uuid: dc16c68b-dcd3-4c00-814a-df43b444e5a9
+langcode: en
+status: true
+dependencies:
+  config:
+    - contact.form.join_ccn_team
+    - field.storage.contact_message.field_support
+id: contact_message.join_ccn_team.field_support
+field_name: field_support
+entity_type: contact_message
+bundle: join_ccn_team
+label: Support
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

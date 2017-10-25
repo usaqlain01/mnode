@@ -1,0 +1,13 @@
+uuid: 7843f71e-31ca-4c43-a9f0-11d99a946bce
+langcode: en
+status: true
+dependencies: {  }
+id: redirecting_to_homepage
+label: 'Redirecting to Homepage'
+user_roles:
+  authenticated: authenticated
+users: null
+login_redirect: /
+login_redirect_message: ''
+logout_redirect: /
+logout_redirect_message: ''

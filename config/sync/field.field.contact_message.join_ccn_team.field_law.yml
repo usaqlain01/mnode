@@ -1,0 +1,23 @@
+uuid: d3d46aed-55c1-4d0a-bc8f-bc9bade8610b
+langcode: en
+status: true
+dependencies:
+  config:
+    - contact.form.join_ccn_team
+    - field.storage.contact_message.field_law
+id: contact_message.join_ccn_team.field_law
+field_name: field_law
+entity_type: contact_message
+bundle: join_ccn_team
+label: Law
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

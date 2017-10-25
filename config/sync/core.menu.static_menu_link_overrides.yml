@@ -6,11 +6,11 @@ definitions:
     expanded: false
     enabled: true
   user__page:
-    weight: -50
+    enabled: false
     menu_name: account
     parent: ''
-    enabled: true
     expanded: false
+    weight: -50
   user__logout:
     weight: -49
     menu_name: account

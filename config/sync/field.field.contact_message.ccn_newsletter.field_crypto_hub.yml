@@ -1,0 +1,23 @@
+uuid: 2d4cb1e1-aa61-49bf-baf4-827b76f852fe
+langcode: en
+status: true
+dependencies:
+  config:
+    - contact.form.ccn_newsletter
+    - field.storage.contact_message.field_crypto_hub
+id: contact_message.ccn_newsletter.field_crypto_hub
+field_name: field_crypto_hub
+entity_type: contact_message
+bundle: ccn_newsletter
+label: 'Crypto Hub'
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 1
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

@@ -1,0 +1,18 @@
+uuid: 29107f1d-3402-4b5e-b168-216a2f759afe
+langcode: en
+status: true
+dependencies:
+  module:
+    - contact
+id: contact_message.field_graphic_design
+field_name: field_graphic_design
+entity_type: contact_message
+type: boolean
+settings: {  }
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

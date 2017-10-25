@@ -1,0 +1,19 @@
+uuid: 7a15b313-b218-40fa-a6e4-2580ec3a5202
+langcode: en
+status: true
+dependencies:
+  config:
+    - contact.form.subscribe
+    - field.storage.contact_message.field_email_address_
+id: contact_message.subscribe.field_email_address_
+field_name: field_email_address_
+entity_type: contact_message
+bundle: subscribe
+label: 'Email Address '
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: email

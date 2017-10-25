@@ -10,7 +10,7 @@ dependencies:
 id: countdowntimer_2
 theme: drupal8_parallax_theme
 region: content
-weight: -15
+weight: -16
 provider: null
 plugin: jquery_countdown_timer
 settings:

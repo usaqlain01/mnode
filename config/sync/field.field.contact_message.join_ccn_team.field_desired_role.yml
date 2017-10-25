@@ -1,0 +1,19 @@
+uuid: 09c87c52-c365-4481-aebd-1e68a1e0e0dc
+langcode: en
+status: true
+dependencies:
+  config:
+    - contact.form.join_ccn_team
+    - field.storage.contact_message.field_desired_role
+id: contact_message.join_ccn_team.field_desired_role
+field_name: field_desired_role
+entity_type: contact_message
+bundle: join_ccn_team
+label: 'Desired Role nodsp'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

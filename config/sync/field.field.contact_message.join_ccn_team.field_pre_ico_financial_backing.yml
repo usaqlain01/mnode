@@ -1,0 +1,23 @@
+uuid: b5230a6f-25d9-4b53-85b4-259bc4a238d1
+langcode: en
+status: true
+dependencies:
+  config:
+    - contact.form.join_ccn_team
+    - field.storage.contact_message.field_pre_ico_financial_backing
+id: contact_message.join_ccn_team.field_pre_ico_financial_backing
+field_name: field_pre_ico_financial_backing
+entity_type: contact_message
+bundle: join_ccn_team
+label: 'Pre ICO Financial Backing'
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

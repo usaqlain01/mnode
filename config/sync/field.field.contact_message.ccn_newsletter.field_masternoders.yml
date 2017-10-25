@@ -1,0 +1,23 @@
+uuid: 3031cebf-308f-4f66-8fcc-41253d1e174c
+langcode: en
+status: true
+dependencies:
+  config:
+    - contact.form.ccn_newsletter
+    - field.storage.contact_message.field_masternoders
+id: contact_message.ccn_newsletter.field_masternoders
+field_name: field_masternoders
+entity_type: contact_message
+bundle: ccn_newsletter
+label: Masternoders
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 1
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

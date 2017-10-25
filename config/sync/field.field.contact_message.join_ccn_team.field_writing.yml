@@ -1,0 +1,23 @@
+uuid: 72c15e30-2cf2-4dda-a96b-fbf13243ca02
+langcode: en
+status: true
+dependencies:
+  config:
+    - contact.form.join_ccn_team
+    - field.storage.contact_message.field_writing
+id: contact_message.join_ccn_team.field_writing
+field_name: field_writing
+entity_type: contact_message
+bundle: join_ccn_team
+label: Writing
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

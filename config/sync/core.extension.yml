@@ -17,6 +17,7 @@ module:
   field_ui: 0
   file: 0
   filter: 0
+  formblock: 0
   help: 0
   history: 0
   image: 0
@@ -33,12 +34,14 @@ module:
   search: 0
   shortcut: 0
   simple_timeline: 0
+  smtp: 0
   system: 0
   taxonomy: 0
   text: 0
   toolbar: 0
   tour: 0
   user: 0
+  user_default_page: 0
   views_ui: 0
   votingapi: 0
   menu_link_content: 1

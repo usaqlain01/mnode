@@ -1,0 +1,23 @@
+uuid: 17d2b039-0160-49ff-86da-092e68518fce
+langcode: en
+status: true
+dependencies:
+  config:
+    - contact.form.join_ccn_team
+    - field.storage.contact_message.field_project_managment
+id: contact_message.join_ccn_team.field_project_managment
+field_name: field_project_managment
+entity_type: contact_message
+bundle: join_ccn_team
+label: 'Project Managment'
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean
