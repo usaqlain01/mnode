@@ -515,11 +515,8 @@ input#edit-preview--4 {
 input#edit-preview--5 {
 	display: none;
 }
-/*input#edit-field-name-0-value {
-	float: left;
+a[href="/user/login"], a[href="/user/logout"] {
+  color: red !important;
 }
-input#edit-field-email-address-0-value {
-	float: left;
-}
-*/
+
 
