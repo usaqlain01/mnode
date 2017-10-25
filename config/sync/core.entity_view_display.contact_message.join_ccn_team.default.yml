@@ -1,0 +1,226 @@
+uuid: 1f1beab0-0127-4270-92a7-9aae8ed16ade
+langcode: en
+status: true
+dependencies:
+  config:
+    - contact.form.join_ccn_team
+    - field.field.contact_message.join_ccn_team.field_accounting
+    - field.field.contact_message.join_ccn_team.field_administrative_team
+    - field.field.contact_message.join_ccn_team.field_blogging
+    - field.field.contact_message.join_ccn_team.field_copyright_
+    - field.field.contact_message.join_ccn_team.field_crypto_know_how
+    - field.field.contact_message.join_ccn_team.field_customer_service
+    - field.field.contact_message.join_ccn_team.field_desired_role
+    - field.field.contact_message.join_ccn_team.field_development_team
+    - field.field.contact_message.join_ccn_team.field_email_address_
+    - field.field.contact_message.join_ccn_team.field_graphic_design
+    - field.field.contact_message.join_ccn_team.field_law
+    - field.field.contact_message.join_ccn_team.field_name
+    - field.field.contact_message.join_ccn_team.field_pre_ico_financial_backing
+    - field.field.contact_message.join_ccn_team.field_programming
+    - field.field.contact_message.join_ccn_team.field_project_managment
+    - field.field.contact_message.join_ccn_team.field_research
+    - field.field.contact_message.join_ccn_team.field_social_media
+    - field.field.contact_message.join_ccn_team.field_social_media_team
+    - field.field.contact_message.join_ccn_team.field_support
+    - field.field.contact_message.join_ccn_team.field_writing
+id: contact_message.join_ccn_team.default
+targetEntityType: contact_message
+bundle: join_ccn_team
+mode: default
+content:
+  field_accounting:
+    weight: 10
+    label: above
+    settings:
+      format: unicode-yes-no
+      format_custom_true: ''
+      format_custom_false: ''
+    third_party_settings: {  }
+    type: boolean
+    region: content
+  field_administrative_team:
+    weight: 2
+    label: above
+    settings:
+      format: unicode-yes-no
+      format_custom_true: ''
+      format_custom_false: ''
+    third_party_settings: {  }
+    type: boolean
+    region: content
+  field_blogging:
+    weight: 15
+    label: above
+    settings:
+      format: unicode-yes-no
+      format_custom_true: ''
+      format_custom_false: ''
+    third_party_settings: {  }
+    type: boolean
+    region: content
+  field_copyright_:
+    weight: 16
+    label: above
+    settings:
+      format: unicode-yes-no
+      format_custom_true: ''
+      format_custom_false: ''
+    third_party_settings: {  }
+    type: boolean
+    region: content
+  field_crypto_know_how:
+    weight: 12
+    label: above
+    settings:
+      format: unicode-yes-no
+      format_custom_true: ''
+      format_custom_false: ''
+    third_party_settings: {  }
+    type: boolean
+    region: content
+  field_customer_service:
+    weight: 19
+    label: above
+    settings:
+      format: unicode-yes-no
+      format_custom_true: ''
+      format_custom_false: ''
+    third_party_settings: {  }
+    type: boolean
+    region: content
+  field_desired_role:
+    weight: 5
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_development_team:
+    weight: 3
+    label: above
+    settings:
+      format: unicode-yes-no
+      format_custom_true: ''
+      format_custom_false: ''
+    third_party_settings: {  }
+    type: boolean
+    region: content
+  field_email_address_:
+    weight: 1
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    type: basic_string
+    region: content
+  field_graphic_design:
+    weight: 8
+    label: above
+    settings:
+      format: unicode-yes-no
+      format_custom_true: ''
+      format_custom_false: ''
+    third_party_settings: {  }
+    type: boolean
+    region: content
+  field_law:
+    weight: 9
+    label: above
+    settings:
+      format: unicode-yes-no
+      format_custom_true: ''
+      format_custom_false: ''
+    third_party_settings: {  }
+    type: boolean
+    region: content
+  field_name:
+    weight: 0
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_pre_ico_financial_backing:
+    weight: 6
+    label: above
+    settings:
+      format: unicode-yes-no
+      format_custom_true: ''
+      format_custom_false: ''
+    third_party_settings: {  }
+    type: boolean
+    region: content
+  field_programming:
+    weight: 7
+    label: above
+    settings:
+      format: unicode-yes-no
+      format_custom_true: ''
+      format_custom_false: ''
+    third_party_settings: {  }
+    type: boolean
+    region: content
+  field_project_managment:
+    weight: 13
+    label: above
+    settings:
+      format: unicode-yes-no
+      format_custom_true: ''
+      format_custom_false: ''
+    third_party_settings: {  }
+    type: boolean
+    region: content
+  field_research:
+    weight: 11
+    label: above
+    settings:
+      format: unicode-yes-no
+      format_custom_true: ''
+      format_custom_false: ''
+    third_party_settings: {  }
+    type: boolean
+    region: content
+  field_social_media:
+    weight: 17
+    label: above
+    settings:
+      format: unicode-yes-no
+      format_custom_true: ''
+      format_custom_false: ''
+    third_party_settings: {  }
+    type: boolean
+    region: content
+  field_social_media_team:
+    weight: 4
+    label: above
+    settings:
+      format: unicode-yes-no
+      format_custom_true: ''
+      format_custom_false: ''
+    third_party_settings: {  }
+    type: boolean
+    region: content
+  field_support:
+    weight: 18
+    label: above
+    settings:
+      format: unicode-yes-no
+      format_custom_true: ''
+      format_custom_false: ''
+    third_party_settings: {  }
+    type: boolean
+    region: content
+  field_writing:
+    weight: 14
+    label: above
+    settings:
+      format: unicode-yes-no
+      format_custom_true: ''
+      format_custom_false: ''
+    third_party_settings: {  }
+    type: boolean
+    region: content
+hidden:
+  message: true

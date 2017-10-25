@@ -1,0 +1,23 @@
+uuid: 87a9f60a-c3ea-4261-a741-2c39cc5d55d5
+langcode: en
+status: true
+dependencies:
+  config:
+    - contact.form.join_ccn_team
+    - field.storage.contact_message.field_accounting
+id: contact_message.join_ccn_team.field_accounting
+field_name: field_accounting
+entity_type: contact_message
+bundle: join_ccn_team
+label: Accounting
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

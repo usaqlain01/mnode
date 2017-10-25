@@ -11,7 +11,7 @@ dependencies:
 id: welcome
 theme: drupal8_parallax_theme
 region: homepagemessage
-weight: 0
+weight: -15
 provider: null
 plugin: 'block_content:ef690a67-6dac-4c23-9da4-45c7aa87d7fb'
 settings:

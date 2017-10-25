@@ -9,7 +9,7 @@ _core:
 id: drupal8_parallax_theme_local_actions
 theme: drupal8_parallax_theme
 region: auto_hidden_block
-weight: -8
+weight: -15
 provider: null
 plugin: local_actions_block
 settings:

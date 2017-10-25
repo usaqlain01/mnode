@@ -1,0 +1,23 @@
+uuid: 206010f9-6bf6-4ccc-8283-a37ba2481b98
+langcode: en
+status: true
+dependencies:
+  config:
+    - contact.form.join_ccn_team
+    - field.storage.contact_message.field_administrative_team
+id: contact_message.join_ccn_team.field_administrative_team
+field_name: field_administrative_team
+entity_type: contact_message
+bundle: join_ccn_team
+label: 'Administrative Team'
+description: 'Select the team you wish to Join.'
+required: false
+translatable: false
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

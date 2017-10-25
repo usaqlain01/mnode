@@ -1,0 +1,52 @@
+uuid: 2cf52821-96aa-43be-b32b-79df60e50a0c
+langcode: en
+status: true
+dependencies:
+  config:
+    - contact.form.ccn_newsletter
+    - field.field.contact_message.ccn_newsletter.field_crypto_hub
+    - field.field.contact_message.ccn_newsletter.field_email_address_
+    - field.field.contact_message.ccn_newsletter.field_masternoders
+    - field.field.contact_message.ccn_newsletter.field_name
+id: contact_message.ccn_newsletter.default
+targetEntityType: contact_message
+bundle: ccn_newsletter
+mode: default
+content:
+  field_crypto_hub:
+    weight: 2
+    label: inline
+    settings:
+      format: unicode-yes-no
+      format_custom_true: ''
+      format_custom_false: ''
+    third_party_settings: {  }
+    type: boolean
+    region: content
+  field_email_address_:
+    weight: 1
+    label: inline
+    settings: {  }
+    third_party_settings: {  }
+    type: basic_string
+    region: content
+  field_masternoders:
+    weight: 3
+    label: inline
+    settings:
+      format: unicode-yes-no
+      format_custom_true: ''
+      format_custom_false: ''
+    third_party_settings: {  }
+    type: boolean
+    region: content
+  field_name:
+    weight: 0
+    label: inline
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+hidden:
+  message: true

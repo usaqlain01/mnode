@@ -1,0 +1,13 @@
+uuid: 59e4e7fb-4b2f-4dac-a9ad-ab5db4f655ec
+langcode: en
+status: true
+dependencies: {  }
+id: subscribe
+label: 'Crypto Subscribe'
+recipients:
+  - cryptocommunitynetwork@gmail.com
+  - mauro@live.co.uk
+reply: ''
+weight: 0
+message: 'Subscribe to Bitcoin & Blockchain News and Alerts'
+redirect: ''

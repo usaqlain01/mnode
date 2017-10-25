@@ -1,0 +1,23 @@
+uuid: aa58ef4c-d96d-4733-b6fb-327d5cf9af3b
+langcode: en
+status: true
+dependencies:
+  config:
+    - contact.form.join_ccn_team
+    - field.storage.contact_message.field_development_team
+id: contact_message.join_ccn_team.field_development_team
+field_name: field_development_team
+entity_type: contact_message
+bundle: join_ccn_team
+label: 'Development Team'
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

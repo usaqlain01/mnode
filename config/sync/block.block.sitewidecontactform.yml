@@ -1,0 +1,21 @@
+uuid: fc2ab76a-eccd-4b55-b49d-489029fb1d36
+langcode: en
+status: true
+dependencies:
+  module:
+    - contact
+  theme:
+    - drupal8_parallax_theme
+id: sitewidecontactform
+theme: drupal8_parallax_theme
+region: bottom_first
+weight: 0
+provider: null
+plugin: formblock_contact
+settings:
+  id: formblock_contact
+  label: 'Join Crypto Community Network''s Newsletter'
+  provider: contact
+  label_display: visible
+  contact_form: ccn_newsletter
+visibility: {  }

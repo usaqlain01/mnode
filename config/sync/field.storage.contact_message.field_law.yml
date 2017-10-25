@@ -1,0 +1,18 @@
+uuid: 958c9dd2-0825-4aef-98fc-589f6b53b9d2
+langcode: en
+status: true
+dependencies:
+  module:
+    - contact
+id: contact_message.field_law
+field_name: field_law
+entity_type: contact_message
+type: boolean
+settings: {  }
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

@@ -1,0 +1,23 @@
+uuid: c0c6dc12-c3d6-4b13-ae60-955dda1aa3c5
+langcode: en
+status: true
+dependencies:
+  config:
+    - contact.form.join_ccn_team
+    - field.storage.contact_message.field_social_media
+id: contact_message.join_ccn_team.field_social_media
+field_name: field_social_media
+entity_type: contact_message
+bundle: join_ccn_team
+label: 'Social Media'
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

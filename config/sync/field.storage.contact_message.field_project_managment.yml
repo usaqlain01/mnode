@@ -1,0 +1,18 @@
+uuid: fc6e84e1-7394-4f1e-827d-29b6b856e943
+langcode: en
+status: true
+dependencies:
+  module:
+    - contact
+id: contact_message.field_project_managment
+field_name: field_project_managment
+entity_type: contact_message
+type: boolean
+settings: {  }
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

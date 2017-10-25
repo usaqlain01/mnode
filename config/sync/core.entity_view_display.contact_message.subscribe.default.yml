@@ -1,0 +1,21 @@
+uuid: 8d805ee7-cd3c-4f7a-ba52-d60b4870a762
+langcode: en
+status: true
+dependencies:
+  config:
+    - contact.form.subscribe
+    - field.field.contact_message.subscribe.field_email_address_
+id: contact_message.subscribe.default
+targetEntityType: contact_message
+bundle: subscribe
+mode: default
+content:
+  field_email_address_:
+    weight: 0
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    type: basic_string
+    region: content
+hidden:
+  message: true

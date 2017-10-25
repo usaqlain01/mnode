@@ -1,0 +1,23 @@
+uuid: eca5a2a5-6d3f-4ea2-a248-192058714381
+langcode: en
+status: true
+dependencies:
+  config:
+    - contact.form.join_ccn_team
+    - field.storage.contact_message.field_copyright_
+id: contact_message.join_ccn_team.field_copyright_
+field_name: field_copyright_
+entity_type: contact_message
+bundle: join_ccn_team
+label: 'Copyright '
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

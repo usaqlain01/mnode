@@ -1,0 +1,181 @@
+uuid: 0ef3ab04-5dbe-460e-be54-43d75dd6e10b
+langcode: en
+status: true
+dependencies:
+  config:
+    - contact.form.join_ccn_team
+    - field.field.contact_message.join_ccn_team.field_accounting
+    - field.field.contact_message.join_ccn_team.field_administrative_team
+    - field.field.contact_message.join_ccn_team.field_blogging
+    - field.field.contact_message.join_ccn_team.field_copyright_
+    - field.field.contact_message.join_ccn_team.field_crypto_know_how
+    - field.field.contact_message.join_ccn_team.field_customer_service
+    - field.field.contact_message.join_ccn_team.field_desired_role
+    - field.field.contact_message.join_ccn_team.field_development_team
+    - field.field.contact_message.join_ccn_team.field_email_address_
+    - field.field.contact_message.join_ccn_team.field_graphic_design
+    - field.field.contact_message.join_ccn_team.field_law
+    - field.field.contact_message.join_ccn_team.field_name
+    - field.field.contact_message.join_ccn_team.field_pre_ico_financial_backing
+    - field.field.contact_message.join_ccn_team.field_programming
+    - field.field.contact_message.join_ccn_team.field_project_managment
+    - field.field.contact_message.join_ccn_team.field_research
+    - field.field.contact_message.join_ccn_team.field_social_media
+    - field.field.contact_message.join_ccn_team.field_social_media_team
+    - field.field.contact_message.join_ccn_team.field_support
+    - field.field.contact_message.join_ccn_team.field_writing
+id: contact_message.join_ccn_team.default
+targetEntityType: contact_message
+bundle: join_ccn_team
+mode: default
+content:
+  field_accounting:
+    weight: 10
+    settings:
+      display_label: true
+    third_party_settings: {  }
+    type: boolean_checkbox
+    region: content
+  field_administrative_team:
+    weight: 3
+    settings:
+      display_label: true
+    third_party_settings: {  }
+    type: boolean_checkbox
+    region: content
+  field_blogging:
+    weight: 15
+    settings:
+      display_label: true
+    third_party_settings: {  }
+    type: boolean_checkbox
+    region: content
+  field_copyright_:
+    weight: 16
+    settings:
+      display_label: true
+    third_party_settings: {  }
+    type: boolean_checkbox
+    region: content
+  field_crypto_know_how:
+    weight: 12
+    settings:
+      display_label: true
+    third_party_settings: {  }
+    type: boolean_checkbox
+    region: content
+  field_customer_service:
+    weight: 19
+    settings:
+      display_label: true
+    third_party_settings: {  }
+    type: boolean_checkbox
+    region: content
+  field_desired_role:
+    weight: 2
+    settings:
+      size: 60
+      placeholder: 'Desired role in CCN Team'
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  field_development_team:
+    weight: 4
+    settings:
+      display_label: true
+    third_party_settings: {  }
+    type: boolean_checkbox
+    region: content
+  field_email_address_:
+    weight: 1
+    settings:
+      size: 60
+      placeholder: 'Email Address'
+    third_party_settings: {  }
+    type: email_default
+    region: content
+  field_graphic_design:
+    weight: 8
+    settings:
+      display_label: true
+    third_party_settings: {  }
+    type: boolean_checkbox
+    region: content
+  field_law:
+    weight: 9
+    settings:
+      display_label: true
+    third_party_settings: {  }
+    type: boolean_checkbox
+    region: content
+  field_name:
+    weight: 0
+    settings:
+      size: 30
+      placeholder: Name
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  field_pre_ico_financial_backing:
+    weight: 6
+    settings:
+      display_label: true
+    third_party_settings: {  }
+    type: boolean_checkbox
+    region: content
+  field_programming:
+    weight: 7
+    settings:
+      display_label: true
+    third_party_settings: {  }
+    type: boolean_checkbox
+    region: content
+  field_project_managment:
+    weight: 13
+    settings:
+      display_label: true
+    third_party_settings: {  }
+    type: boolean_checkbox
+    region: content
+  field_research:
+    weight: 11
+    settings:
+      display_label: true
+    third_party_settings: {  }
+    type: boolean_checkbox
+    region: content
+  field_social_media:
+    weight: 17
+    settings:
+      display_label: true
+    third_party_settings: {  }
+    type: boolean_checkbox
+    region: content
+  field_social_media_team:
+    weight: 5
+    settings:
+      display_label: true
+    third_party_settings: {  }
+    type: boolean_checkbox
+    region: content
+  field_support:
+    weight: 18
+    settings:
+      display_label: true
+    third_party_settings: {  }
+    type: boolean_checkbox
+    region: content
+  field_writing:
+    weight: 14
+    settings:
+      display_label: true
+    third_party_settings: {  }
+    type: boolean_checkbox
+    region: content
+hidden:
+  copy: true
+  mail: true
+  message: true
+  name: true
+  preview: true
+  subject: true

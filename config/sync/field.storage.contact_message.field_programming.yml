@@ -1,0 +1,18 @@
+uuid: 2209160b-f3e1-4b75-9680-09dda640d8b8
+langcode: en
+status: true
+dependencies:
+  module:
+    - contact
+id: contact_message.field_programming
+field_name: field_programming
+entity_type: contact_message
+type: boolean
+settings: {  }
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

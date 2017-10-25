@@ -1,0 +1,23 @@
+uuid: a25a4ec9-bd96-47fa-83bb-53e0e42a7da9
+langcode: en
+status: true
+dependencies:
+  config:
+    - contact.form.join_ccn_team
+    - field.storage.contact_message.field_graphic_design
+id: contact_message.join_ccn_team.field_graphic_design
+field_name: field_graphic_design
+entity_type: contact_message
+bundle: join_ccn_team
+label: 'Graphic Design'
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

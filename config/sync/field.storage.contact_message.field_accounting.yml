@@ -1,0 +1,18 @@
+uuid: 487800c4-b945-44e5-8a7f-089f1f3e62e9
+langcode: en
+status: true
+dependencies:
+  module:
+    - contact
+id: contact_message.field_accounting
+field_name: field_accounting
+entity_type: contact_message
+type: boolean
+settings: {  }
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

@@ -1,0 +1,13 @@
+uuid: df7104ab-5f2f-4a2e-9745-11fb2c6b578f
+langcode: en
+status: true
+dependencies: {  }
+id: ccn_newsletter
+label: 'CCN Newsletter'
+recipients:
+  - cryptocommunitynetwork@gmail.com
+  - mauro@live.co.uk
+reply: ''
+weight: 0
+message: 'Thanks for subscribing to Crypto Community Network''s newsletter!'
+redirect: ''

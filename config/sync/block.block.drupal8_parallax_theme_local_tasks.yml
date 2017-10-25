@@ -9,7 +9,7 @@ _core:
 id: drupal8_parallax_theme_local_tasks
 theme: drupal8_parallax_theme
 region: content
-weight: -14
+weight: -15
 provider: null
 plugin: local_tasks_block
 settings:
