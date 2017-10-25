@@ -519,7 +519,7 @@ a[href="/user/login"], a[href="/user/logout"] {
   color: blue !important;
 }
 div.site-branding__name > a[href="/"], a[href="/user/logout"] {
-  font-size: 75%;
+  font-size: 70%;
 }
 
 
